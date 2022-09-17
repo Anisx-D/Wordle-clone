@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:id="@+id/editText2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText30"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText26"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText23"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText27"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText25"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText28"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText13"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#6B6B6B"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+
+        android:minHeight="48dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="30dp"
+        android:layout_height="37dp"
+        android:text="?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
