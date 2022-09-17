@@ -78,6 +78,7 @@ public class MainActivity<length> extends AppCompatActivity {
 
         Button x =findViewById(R.id.check);
         Button but5 = findViewById(R.id.help);
+        Button re = findViewById(R.id.reload);
 
 
 
@@ -119,9 +120,19 @@ public class MainActivity<length> extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //
+        re.setOnClickListener(new View.OnClickListener() {
+
+                                  @Override
+                                  public void onClick(View view) {
+                                      finish();
+                                      startActivity(getIntent());
+                                  }
+                              });
 
 
-        //sound playing on input
+
+                //sound playing on input
         final MediaPlayer mp =MediaPlayer.create(this, R.raw.click);
 
 
